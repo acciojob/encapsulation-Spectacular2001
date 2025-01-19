@@ -1,11 +1,18 @@
 package com.driver;
 
 public class RWOnly {
-    privete String name;
-    public String getNa(){
+    private String name; // Fixed spelling of 'private'
+
+    // Getter method
+    public String getName() {
         return name;
-    
-}
-    public void setNam(String name){
-        this.name + name;
     }
+
+    // Setter method
+    public void setName(String name) {
+        this.name = name; // Fixed the assignment
+    }
+}
+
+
+    
